@@ -1,0 +1,23 @@
+* {
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    list-style: none;
+}
+
+.index-container {
+    text-align: center;
+    width: 400px;
+    border: 4px gold;
+    background-color: aqua;
+}
+
+a.recipe-link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
