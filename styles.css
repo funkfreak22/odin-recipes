@@ -6,15 +6,24 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+h1 {
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 90, 0.925);
+    width: 25%;
+}
+
 ul {
     list-style: none;
 }
 
 .index-container {
+    margin: auto;
     text-align: center;
-    width: 400px;
-    border: 4px gold;
-    background-color: aqua;
+    width: 25%;
+    background-color: rgba(149, 243, 255, 0.89);
+    border: 3px solid rgb(0, 0, 0);
 }
 
 a.recipe-link {
