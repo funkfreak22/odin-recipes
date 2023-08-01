@@ -12,6 +12,8 @@ h1 {
     text-align: center;
     background-color: rgba(255, 255, 90, 0.925);
     width: 25%;
+    border: 3px solid rgb(0, 0, 0);
+    font-size: 60px;
 }
 
 ul {
@@ -21,9 +23,12 @@ ul {
 .index-container {
     margin: auto;
     text-align: center;
-    width: 25%;
-    background-color: rgba(149, 243, 255, 0.89);
+    width: 620px;
+    background-color:aquamarine;
     border: 3px solid rgb(0, 0, 0);
+    padding-right: 20px;
+    font-size: 32px;
+    font-family: monospace;
 }
 
 a.recipe-link {
