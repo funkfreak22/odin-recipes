@@ -7,8 +7,7 @@ body {
 }
 
 h1 {
-    margin: auto;
-    margin-bottom: 10px;
+    margin: 26px auto;
     text-align: center;
     background-color: rgba(255, 255, 90, 0.925);
     width: 25%;
@@ -18,20 +17,31 @@ h1 {
 
 ul {
     list-style: none;
+    display: flex;
+}
+
+ul li {
+    background-color: white;
+    height: 90px;
+    margin: auto 6px;
+    border: 3px solid black;
+    padding: 16px;
 }
 
 .index-container {
-    margin: auto;
+    font-size: 32px;
+    font-family: monospace;
+    margin: 26px auto;
     text-align: center;
-    width: 620px;
+    width: 1200px;
     background-color:aquamarine;
     border: 3px solid rgb(0, 0, 0);
     padding-right: 35px;
-    font-size: 32px;
-    font-family: monospace;
+    
 }
 
-a.recipe-link {
+.recipe-link {
     text-decoration: none;
     text-transform: uppercase;
+    
 }
